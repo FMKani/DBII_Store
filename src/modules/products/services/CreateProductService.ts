@@ -12,7 +12,7 @@ interface Request {
 class CreateProductService {
     public async execute({ nome, preco, quant }: Request): Promise<Product> {
         const ProductsRepository = getCustomRepository(ProductRepository);
-        const productExists = ProductsRepository.findByName(nome);
+        const productExists = await ProductsRepository.findByName(nome);
 
         if (productExists) {
             throw new AppError('Já existe um produto com esse nome');
