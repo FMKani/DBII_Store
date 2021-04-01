@@ -13,6 +13,7 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/FMKani/DBII_Store?">
   <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/FMKani/DBII_Store?">
   <img alt="Project top programing language" src="https://img.shields.io/github/languages/top/FMKani/DBII_Store?">
+  <img alt="Docker status" src="https://img.shields.io/docker/build/FMKani/https://github.com/FMKani/DBII_Store">
 </p>
 
 <p align="center">
